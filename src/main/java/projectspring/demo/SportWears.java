@@ -21,7 +21,4 @@ public class SportWears {
         sportWears.add(nameWear);
 
     }
-
-
-
 }
