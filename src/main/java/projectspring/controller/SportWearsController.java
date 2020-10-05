@@ -10,7 +10,7 @@ import java.util.List;
 @RequestMapping("/sport")
 public class SportWearsController {
 
-    SportWearsRepository sporrtWears = new SportWearsRepository();
+     private SportWearsRepository sporrtWears = new SportWearsRepository();
 
     @GetMapping("/wears")
     public List<String> wearsList() {
